@@ -1,6 +1,9 @@
 # lua-emitter
 a event emitter in Lua with basic functionality
 
+## Dependencies
+- [orcus](https://github.com/alphafantomu/orcus)
+
 ## Installation
 - Make sure you have [luvit](https://luvit.io/install.html) installed
 - Run the command `lit install alphafantomu/lua-emitter`
