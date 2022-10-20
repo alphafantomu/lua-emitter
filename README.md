@@ -2,14 +2,12 @@
 a event emitter in Lua with basic functionality
 
 ## Dependencies
-- [orcus](https://github.com/alphafantomu/orcus)
+- [alphafantomu/orcus](https://github.com/alphafantomu/orcus)
 
 ## Installation
-- Make sure you have [luvit](https://luvit.io/install.html) installed
-- Run the command `lit install alphafantomu/lua-emitter`
-- `require('lua-emitter')` to reference the library
-
-- There is no [LuaRocks](https://luarocks.org/) release, but only `init.lua` is necessary to use the library.
+- This package uses the lit package manager, run `lit install alphafantomu/lua-emitter`
+- If you're using this in a self-contained binary through [Luvi](https://github.com/luvit/luvi), you may include it inside `package.lua` as well `alphafantomu/lua-emitter`
+- You can reference the library using `require('lua-emitter')`
 
 ## Documentation
 You can find API documentation [here](https://github.com/alphafantomu/lua-emitter/wiki).
